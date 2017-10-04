@@ -1,11 +1,11 @@
 import _ from 'lodash';
-import './general.less';
-import logo from './logo.svg';
+import './app.less';
+import logo from './resources/images/logo.svg';
 
 function component() {
     const element = document.createElement('div');
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
+    element.classList.add('bye');
 
     const myIcon = new Image();
     myIcon.src = logo;
